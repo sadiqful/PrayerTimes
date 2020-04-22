@@ -4,3 +4,10 @@ body {
   font-family: 'Tajawal', sans-serif;
   background-color: rgba(56, 173, 169, 1.0);
 }
+
+header {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 100%;
+}
