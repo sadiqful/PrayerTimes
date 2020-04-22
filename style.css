@@ -53,3 +53,7 @@ header {
   text-decoration: none;
   color: rgba(96, 163, 188, 1.0);
 }
+
+.title-div a:hover {
+  color: salmon;
+}
