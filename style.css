@@ -73,3 +73,9 @@ header {
   background: rgba(10, 61, 98, 0.8);
   border-top: 10px solid rgba(56, 173, 169, 1.0);
 }
+
+.clock-title {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px 0 5px 0;
+}
