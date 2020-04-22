@@ -45,3 +45,11 @@ header {
   text-align: center;
   font-size: 20pt;
 }
+
+.title-div a {
+  margin 0;
+  float: right;
+  padding: 5px 0 0;
+  text-decoration: none;
+  color: rgba(96, 163, 188, 1.0);
+}
