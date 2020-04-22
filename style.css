@@ -65,3 +65,11 @@ header {
   float: left;
   overflow: hidden;
 }
+
+.clock-container {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  background: rgba(10, 61, 98, 0.8);
+  border-top: 10px solid rgba(56, 173, 169, 1.0);
+}
