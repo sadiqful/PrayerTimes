@@ -36,3 +36,12 @@ header {
   font-weight: 700;
   border-bottom: 2px solid rgba(56, 173, 169, 1.0);
 }
+
+.title-div p {
+  width: 100%;
+  margin: 0;
+  padding: 5px 0 0 0;
+  color: rgba(10, 61, 98, 0.8);
+  text-align: center;
+  font-size: 20pt;
+}
