@@ -11,3 +11,11 @@ header {
   float: left;
   width: 100%;
 }
+
+.header-title-container {
+  margin: 0 auto;
+  padding: 0;
+  width: 90%;
+  background: white;
+  border-top: 10px solid rgba(56, 173, 169, 1.0);
+}
