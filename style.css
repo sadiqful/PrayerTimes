@@ -19,3 +19,20 @@ header {
   background: white;
   border-top: 10px solid rgba(56, 173, 169, 1.0);
 }
+
+.title-div {
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.title-div h1 {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 5px 0;
+  color: rgba(60, 99, 130, 1.0);
+  text-align: center;
+  font-size: 36pt;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(56, 173, 169, 1.0);
+}
