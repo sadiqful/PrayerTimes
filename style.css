@@ -215,3 +215,7 @@ nav {
   width: 90%;
   margin: 0 auto;
 }
+
+th {
+  font-size: 16pt;
+}
