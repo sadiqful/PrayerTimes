@@ -1,43 +1,85 @@
-function printTime() {
-  var day = new Date();
-  var hours = day.getHours();
-  var mins = day.getMinutes();
-  var secs = day.getSeconds();
-  var clockSystem = "";
-  var date = day.getDate();
-  var month = day.getMonth();
-  var year = day.getFullYear();
 
-// Am and PM condition
+	// AM PM condition
+	if (hours<12){
+		ampm="AM";
+	}
+	else{
+		ampm="PM";
+	}
+	// 12hr clock format condition
 
-if (hours < 12) {
-  clockSystem = "AM"
-} else {
-  clockSystem = "PM"
+	if(hours==0){
+		hours = 12;
+	}
+
+	if(hours>12){
+		hours = hours - 12;
+	}
+
+
+	//Double digit condition
+	if(hours<10){
+		hours = "0" + hours;
+	}
+	if(mins<10){
+		mins = "0" + mins;
+	}
+	if(secs<10){
+		secs = "0" + secs;
+	}
+
+// Month condition
+
+switch(month){
+	case 0:
+	month = "JAN";
+	break;
+
+	case 1:
+	month = "FEB";
+	break;
+
+	case 2:
+	month = "MAR";
+	break;
+
+	case 3:
+	month = "APR";
+	break;
+
+	case 4:
+	month = "MAY";
+	break;
+
+	case 5:
+	month = "JUN";
+	break;
+
+	case 6:
+	month = "JUL";
+	break;
+
+	case 7:
+	month = "AUG";
+	break;
+
+	case 8:
+	month = "SEP";
+	break;
+
+	case 9:
+	month = "OCT";
+	break;
+
+	case 10:
+	month = "NOV";
+	break;
+
+	case 11:
+	month = "DEC";
 }
 
-if (hours == 0) {
-  hours = 12;
+	document.getElementById("clock").innerHTML = hours+":"+mins+":"+secs+ " " +ampm;
+	document.getElementById("date").innerHTML=date+"  "+month+"  "+year;
 }
-
-if (hours > 12 ) {
-  hours = hours - 12;
-}
-
-// Double digit condition
-
-if (hours<10){
-  hours = '0' + hours;
-}
-
-if (mins<10) {
-  mins = '0' + mins;
-}
-
-if (secs<10) {
-  secs = '0' + secs;
-}
-
-
-
-}
+setInterval(printTime, 1000);
