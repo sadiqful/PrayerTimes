@@ -160,3 +160,11 @@ nav {
   background: rgba(16, 172, 132, 1.0);
   padding: 20px 10px;
 }
+
+.section2 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
