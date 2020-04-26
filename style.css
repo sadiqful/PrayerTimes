@@ -154,3 +154,9 @@ nav {
   font-family: inherit;
   transition: ease-in-out 0.3s;
 }
+
+.clock-container nav ul li a:hover {
+  cursor: pointer;
+  background: rgba(16, 172, 132, 1.0);
+  padding: 20px 10px;
+}
