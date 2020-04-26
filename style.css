@@ -219,3 +219,9 @@ nav {
 th {
   font-size: 16pt;
 }
+
+td {
+  font-size: 14pt;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+}
