@@ -225,3 +225,8 @@ td {
   word-spacing: 10px;
   letter-spacing: 1px;
 }
+
+.trr:hover {
+  background: rgba(60, 90, 130, 0.8) !important;
+  color: white !important;
+}
