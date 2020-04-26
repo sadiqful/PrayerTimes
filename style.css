@@ -79,3 +79,21 @@ header {
   margin: 0 auto;
   padding: 20px 0 5px 0;
 }
+
+.clock-title h3 {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 5px 0;
+  color: rgba(223, 228, 234, 1.0);
+  text-align: center;
+  font-size: 26pt;
+  font-weight: 700;
+  border-bottom: 2px solid rgba(56, 173, 163, 1.0);
+}
+
+.clock-date {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
