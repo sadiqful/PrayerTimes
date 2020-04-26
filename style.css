@@ -196,3 +196,7 @@ nav {
   font-weight: 700;
   border-bottom: 2px solid white;
 }
+
+.f10 {
+  background: rgba(255, 107, 107, 0.9);
+}
