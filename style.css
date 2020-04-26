@@ -200,3 +200,8 @@ nav {
 .f10 {
   background: rgba(255, 107, 107, 0.9);
 }
+
+.s10 {
+  background: rgba(243, 166, 131, 1.0);
+  border-top: 10px solid rgba(56, 173, 169, 1.0);
+}
