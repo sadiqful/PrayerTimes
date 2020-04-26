@@ -251,3 +251,16 @@ td {
     border-top: 10px solid rgba(56, 173, 169,1.0);
 
 }
+
+.table2 th {
+    font-size: 11pt !important;
+    background: #7f8fa6;
+    color: white;
+}
+
+.table2 td {
+    font-size: 11pt !important;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    background: #dcdde1;
+}
