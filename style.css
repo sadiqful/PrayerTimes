@@ -177,3 +177,11 @@ nav {
   border-top: 10px solid rgba(56,173, 169, 1.0);
   overflow: hidden;
 }
+
+.tables {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 10px 0;
+  float: left;
+  overflow: hidden;
+}
