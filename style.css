@@ -230,3 +230,7 @@ td {
   background: rgba(60, 90, 130, 0.8) !important;
   color: white !important;
 }
+
+.table-hover:hover {
+  cursor: pointer;
+}
