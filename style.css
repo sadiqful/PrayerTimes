@@ -234,3 +234,11 @@ td {
 .table-hover:hover {
   cursor: pointer;
 }
+
+.section3 {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  float: left;
+  overflow: hidden;
+}
