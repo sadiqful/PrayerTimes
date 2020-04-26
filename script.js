@@ -1,3 +1,13 @@
+function printTime() {
+    var d = new Date();
+    var hours = d.getHours();
+    var mins = d.getMinutes();
+	var secs = d.getSeconds();
+	var ampm = "";
+	var date = d.getDate();
+	var month = d.getMonth();
+	var year = d.getFullYear();
+
 
 	// AM PM condition
 	if (hours<12){
