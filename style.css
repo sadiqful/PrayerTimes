@@ -272,3 +272,397 @@ footer {
   float: left;
   overflow: hidden;
 }
+
+* Media query */
+
+@media all and (max-width: 913px){
+    .title-div{
+        width: 70%;
+    }
+
+}
+
+
+@media all and (max-width: 884px){
+    .title-div{
+        width: 75%;
+    }
+    .title-div h1{
+        font-size: 31pt;
+    }
+
+    .title-div p{
+        font-size: 18pt;
+
+    }
+    .clock-title{
+        width: 70%;
+    }
+    .clock-date{
+        width: 60%;
+    }
+    #clock{
+        font-size: 21pt;
+
+    }
+    #date{
+        font-size: 17pt;
+    }
+    .table{
+        width: 96%;
+
+    }
+    .tables h4{
+        font-size: 21pt;
+    }
+    th{
+        font-size: 16pt;
+    }
+    td{
+        font-size: 15pt;
+    }
+
+    .table2 th{
+        font-size: 11pt !important;
+
+    }
+    .table2 td{
+        font-size: 11pt !important;
+    }
+
+    .deve-info p{
+        width: 60%;
+        font-size: 14pt;
+    }
+}
+
+@media all and (max-width: 672px){
+    .title-div{
+        width: 86%;
+    }
+    .title-div h1{
+        font-size: 25pt;
+    }
+
+    .title-div p{
+        font-size: 16pt;
+
+    }
+    .clock-title{
+        width: 84%;
+    }
+    .clock-title h3{
+
+        font-size: 22pt;
+
+    }
+    .clock-date{
+        width: 78%;
+    }
+    #clock{
+        font-size: 19pt;
+
+    }
+    #date{
+        font-size: 15pt;
+    }
+
+    .tables h4{
+        font-size: 19pt;
+    }
+    th{
+        font-size: 15pt;
+    }
+    td{
+        font-size: 14pt;
+        word-spacing: 2px;
+        letter-spacing: 0px;
+    }
+
+    .table2 th{
+        font-size: 10pt !important;
+
+    }
+    .table2 td{
+        font-size: 10pt !important;
+    }
+
+    .deve-info p{
+        width: 84%;
+        font-size: 14pt;
+    }
+
+}
+
+@media all and (max-width: 478px){
+    .title-div{
+        width: 92%;
+    }
+    .title-div h1{
+        font-size: 23pt;
+    }
+
+    .title-div p{
+        font-size: 15pt;
+
+    }
+    .title-div a{
+        padding-top: 12px;
+        font-size: 10pt;
+    }
+    .clock-title{
+        width: 90%;
+    }
+    .clock-title h3{
+
+        font-size: 17pt;
+
+    }
+    .clock-date{
+        width: 88%;
+    }
+    #clock{
+        font-size: 17pt;
+
+    }
+    #date{
+        font-size: 15pt;
+    }
+
+    .tables h4{
+        font-size: 17pt;
+    }
+    th{
+        font-size: 14pt;
+    }
+    td{
+        font-size: 13pt;
+    }
+
+    .table2 th{
+        font-size: 10pt !important;
+
+    }
+    .table2 td{
+        font-size: 10pt !important;
+    }
+
+    .deve-info p{
+        width: 88%;
+        font-size: 14pt;
+    }
+
+}
+
+
+
+
+
+@media all and (max-width: 382px){
+
+    .header-title-container{
+        width: 96%;
+    }
+    .title-div{
+        width: 95%;
+    }
+    .title-div h1{
+        font-size: 17pt;
+    }
+
+    .title-div p{
+        font-size: 14pt;
+
+    }
+    .title-div a{
+        padding-top: 12px;
+        font-size: 9pt;
+    }
+    .clock-container{
+        width: 96%;
+
+    }
+    .clock-title{
+        width: 94%;
+    }
+    .clock-title h3{
+
+        font-size: 15pt;
+
+    }
+    .clock-date{
+        width: 92%;
+    }
+    #clock{
+        font-size: 14pt;
+
+    }
+    #date{
+        font-size: 13pt;
+    }
+    .ramadan-clndr-container{
+        width: 96%;
+
+    }
+    .tables h4{
+        font-size: 13pt;
+    }
+    th{
+        font-size: 12pt;
+    }
+    td{
+        font-size: 11pt;
+    }
+    .extra-info-conatiner{    
+        width: 96%;
+
+    }
+    .table2 th{
+        font-size: 9pt !important;
+
+    }
+    .table2 td{
+        font-size: 9pt !important;
+
+    }
+    .footer-container{
+
+        width: 96%;
+
+    }
+
+}
+
+
+/* nav responsive */
+
+@media all and (max-width: 871px){
+
+    nav{
+        width: 80%;
+    }
+    .clock-container nav ul li a{
+
+        font-size: 14pt;
+
+    }
+}
+
+@media all and (max-width: 710px){
+
+    nav{
+        width: 82%;
+    }
+    .clock-container nav ul li a{
+
+        font-size: 13pt;
+
+    }
+}
+
+@media all and (max-width: 629px){
+
+    nav{
+        width: 83%;
+    }
+    .clock-container nav ul li a{
+
+        font-size: 12pt;
+
+    }
+}
+
+@media all and (max-width: 572px){
+
+    nav{
+        width: 84%;
+    }
+    .clock-container nav ul li a{
+
+        padding: 12px 8px;
+
+    }
+    .clock-container nav ul li a:hover{
+        padding: 14px 9px;
+
+    }
+
+}
+
+@media all and (max-width: 542px){
+
+    nav{
+        width: 86%;
+    }
+    .clock-container nav ul li a{
+
+        padding: 11px 7px;
+
+    }
+    .clock-container nav ul li a:hover{
+        padding: 13px 8px;
+
+    }
+
+}
+
+@media all and (max-width: 530px){
+
+    nav{
+        width: 90%;
+    }
+    .clock-container nav ul{
+        padding: 30px 0 0 0;
+
+
+    }
+    .clock-container nav ul li{
+        display: block;
+        padding-bottom: 46px;
+
+
+    }
+
+    .clock-container nav ul li a{
+
+        padding: 12px 52px;
+        font-size: 13pt;
+
+    }
+    .clock-container nav ul li a:hover{
+        padding: 12px 56px;
+
+    }
+
+}
+
+@media all and (max-width: 512px){
+
+    nav{
+        width: 94%;
+    }
+
+    .clock-container nav ul{
+        padding: 22px 0 0 0;
+
+
+    }
+    .clock-container nav ul li{
+        display: block;
+        padding-bottom: 45px;
+
+
+    }
+
+    .clock-container nav ul li a{
+
+        padding: 11px 50px;
+        font-size: 12pt;
+
+    }
+    .clock-container nav ul li a:hover{
+        padding: 11px 54px;
+
+    }
+
+}
